@@ -1,52 +1,68 @@
 {
   "products": [
     {
+      "id": 1,
       "image": "https://cdn.pixabay.com/photo/2017/08/21/15/37/laptop-2665794_960_720.jpg",
-      "name": "computer notebook",
+      "name": "Computer Notebook",
       "oldprice": 250000,
-      "newprice": 180000
+      "newprice": 180000,
+      "description": "A new notebook with Core i5 OS, 256GB Ram"
     },
     {
+      "id": 2,
       "image": "https://media.istockphoto.com/photos/apple-airpods-pro-isolated-on-wooden-surface-the-new-airpods-pro-picture-id1298081252?k=20&m=1298081252&s=612x612&w=0&h=qahh0aCAfVx5ouXcbGp6YLuR1hzkxefDY-fH4O9F0cQ=",
-      "name": "apple airpod",
+      "name": "Apple Airpod",
       "oldprice": 8000,
-      "newprice": 4500
+      "newprice": 4500,
+      "description": "It has clear and sound bass, it comes with button for adjusting the volume. "
     },
     {
+      "id": 3,
       "image": "https://i.etsystatic.com/23111601/r/il/67bf55/3313347242/il_340x270.3313347242_2n00.jpg",
-      "name": "breast pad",
+      "name": "Breast Pad",
       "oldprice": 3500,
-      "newprice": 2200
+      "newprice": 2200,
+      "description": "Good for women with small size breast"
     },
     {
+      "id": 4,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCzeJlUo6Xl8Bt-8JsxNiS4q5Hew05TWhhzA&usqp=CAU",
-      "name": "hair clipper",
+      "name": "Hair Clipper",
       "oldprice": 10500,
-      "newprice": 5700
+      "newprice": 5700,
+      "description": "Essential for cutting hair at home"
     },
     {
+      "id": 5,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR268zPq5CsNlRTcStrPY1gXLu0bX0MvTGkrQ&usqp=CAU",
-      "name": "39inch smart plama tv",
+      "name": "Plasma TV",
       "oldprice": 47500,
-      "newprice": 22900
+      "newprice": 22900,
+      "description": "Large screen with clear vision"
     },
     {
+      "id": 6,
       "image": "https://www.artcraftoptical.com/wp-content/uploads/2020/03/WF974-MAtte-Black_Grey-20004000-600x300.jpg",
-      "name": "safety glasses",
+      "name": "Safety Glasses",
       "oldprice": 6800,
-      "newprice": 4500
+      "newprice": 4500,
+      "description": "Essential for protecting the eye during the sunny day"
     },
     {
+      "id": 7,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz8abfYXTcJqajvl1RSa-tQTnL42ieV3f4tw&usqp=CAU",
-      "name": "solar panel",
+      "name": "Solar Panel",
       "oldprice": 68000,
-      "newprice": 45700
+      "newprice": 45700,
+      "description": "Easy access to natural electricity"
     },
     {
+      "id": 8,
       "image": "https://images.yaoota.com/BJY5rhWISA-uSc3u-SbXZBwQ3kw=/trim/fit-in/500x500/filters:quality(80)/yaootaweb-production-ng/media/crawledproductimages/ba91181337964d44c7e4e839024789208c3ba492.jpg",
-      "name": "HD camera",
+      "name": "HD Camera",
       "oldprice": 89000,
-      "newprice": 54000
+      "newprice": 54000,
+      "description": "Well modified lens for good image capturing"
     }
   ]
 }

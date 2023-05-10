@@ -1,26 +1,20 @@
-import { useState, useEffect } from "react";
-import axios from "axios";
+import React from "react";
+import { Link } from "react-router-dom";
 
-const Products = () => {
-  const [updates, setUpdates] = useState([]);
-  useEffect(() => {
-    axios("http://localhost:3001/products")
-      .then((res) => res.data)
-      .then((data) => {
-        console.log(data);
-        setUpdates(data);
-      });
-  }, []);
+const Products = ({ updates }) => {
   return (
     <div className="dec">
-      {updates.map((product) => (
-        <div className="decs">
+      {updates.map((product, id) => (
+        <div className="decs" key={id}>
           <img src={product.image} className="product--image" />
           <p className="">{product.name}</p>
           <p>
             <s>#{product.oldprice}</s>
           </p>
           <p>#{product.newprice}</p>
+          <Link to={`/products/${product.id}`}>
+            <p className="links">See more</p>
+          </Link>
         </div>
       ))}
     </div>
